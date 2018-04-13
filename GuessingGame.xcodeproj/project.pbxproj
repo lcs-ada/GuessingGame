@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		603CCF68201282F700760850 /* GuessingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603CCF67201282F700760850 /* GuessingGame.swift */; };
 		6066838920051C2A00D7A703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066838820051C2A00D7A703 /* AppDelegate.swift */; };
 		6066838B20051C2A00D7A703 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066838A20051C2A00D7A703 /* ViewController.swift */; };
 		6066838E20051C2A00D7A703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6066838C20051C2A00D7A703 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		603CCF67201282F700760850 /* GuessingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessingGame.swift; sourceTree = "<group>"; };
 		6066838520051C2A00D7A703 /* GuessingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6066838820051C2A00D7A703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6066838A20051C2A00D7A703 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				6066838820051C2A00D7A703 /* AppDelegate.swift */,
 				6066838A20051C2A00D7A703 /* ViewController.swift */,
 				6066838C20051C2A00D7A703 /* Main.storyboard */,
+				603CCF67201282F700760850 /* GuessingGame.swift */,
 				6066838F20051C2A00D7A703 /* Assets.xcassets */,
 				6066839120051C2A00D7A703 /* LaunchScreen.storyboard */,
 				6066839420051C2A00D7A703 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6066838B20051C2A00D7A703 /* ViewController.swift in Sources */,
+				603CCF68201282F700760850 /* GuessingGame.swift in Sources */,
 				6066838920051C2A00D7A703 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +282,7 @@
 				DEVELOPMENT_TEAM = ND3X7PK7SY;
 				INFOPLIST_FILE = GuessingGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.on.lcs.GuessingGame;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.on.lcs.Da.GuessingGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +297,7 @@
 				DEVELOPMENT_TEAM = ND3X7PK7SY;
 				INFOPLIST_FILE = GuessingGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.on.lcs.GuessingGame;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.on.lcs.Da.GuessingGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
